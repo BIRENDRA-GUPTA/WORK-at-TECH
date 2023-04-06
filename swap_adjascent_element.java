@@ -16,5 +16,6 @@ public class swap_adjascent_element {
 		for (int i =0; i< n; i++){
 			System.out.print(arr[i] + " ");
 		}
+		biru.close();
     }
 }
