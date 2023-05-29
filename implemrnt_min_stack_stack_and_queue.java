@@ -4,12 +4,12 @@ import java.util.Stack;
 public class implemrnt_min_stack_stack_and_queue {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        int t = scanner.nextInt();
-        while (t-- > 0) {
-            String s = scanner.next();
-            System.out.println(isBalanced(s) ? 1 : 0);
+        try (Scanner scanner = new Scanner(System.in)) {
+            int t = scanner.nextInt();
+            while (t-- > 0) {
+                String s = scanner.next();
+                System.out.println(isBalanced(s) ? 1 : 0);
+            }
         }
     }
 
