@@ -28,4 +28,8 @@ class Solution {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
+    public int[] findTwoElement(int[] arr, int n) {
+        return null;
+    }
 }
