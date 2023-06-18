@@ -37,7 +37,6 @@ public class if_else {
     //     System.out.println(marks[i]);
     // }
 
-\
         }
 
     }
